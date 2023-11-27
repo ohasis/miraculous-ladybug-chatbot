@@ -24,13 +24,7 @@ if preftopic == 2
     mlbcharacterdiscuss(character_name);
 end
 
-% Discussions involving the superheroes, kwamis, and Hawkmoth. (3)
-if preftopic == 3
-    superhero_name = ["Ladybug/Mister Bug, Tikki", "Chat Noir/Lady Noire, Plagg", "Rena Rouge/Rena Furtive, Trixx", "Carapace, Wayzz", "Viperion/Aspik, Sass", "Multimouse/Polymouse, Mullo", "Queen Bee/Vesperia, Pollen", "King Monkey, Xuppu", "Ryuko, Longg", "Pegasus, Kaalki", "Bunnyx, Fluff", "Pigella, Daizzi", "Mayura, Duusuu", "Hawkmoth, Nooroo"];
-    mlbsuperherodiscuss(superhero_name);
-end
-
-% Discussions involving the love square. (4)
+% Discussions involving the love square. (3)
 if preftopic == 4
     fprintf('Marinette Dupain-Cheng is in love with Adrien Agreste, while Adrien Agreste is in love with Ladybug: his partner and Marinette''s secret identity.\nBecause neither Adrien nor Marinette knows their love interest''s identity, this phenomena has resulted in the creation of a love square.\n');
     character1 = input('Adrien or Chat Noir? ','s');
@@ -41,7 +35,7 @@ if preftopic == 4
     mlblovesquarediscuss(whyOTP);
 end
 
-% Episode and movie recommendations. (5)
+% Episode and movie recommendations. (4)
 if preftopic == 5
     fprintf('You will now select the parameters for your episode or movie recommendation. OTP stands for one true pairing.\n');
     if ~isempty(OTP)
@@ -54,7 +48,7 @@ if preftopic == 5
     fprintf('You can watch Miraculous: Tales of Ladybug and Chat Noir on Netflix, Disney+, Disney Channel, and Soap2Day.To.\n');
 end
 
-% Comic, fanfiction, and video recommendations. (6)
+% Comic, fanfiction, and video recommendations. (5)
 if preftopic == 6
     fprintf('You will now select the parameters for your comic, fanfiction, or video recommendation. OTP stands for one true pairing.\n');
     prefOTP = menu('Please select your preferred OTP.', 'I would rather spelect a specific format.', 'Adriennette', 'Ladynoir', 'Marichat', 'Ladrien');
@@ -62,3 +56,9 @@ if preftopic == 6
     fprintf('You should check out the following recommendation:');
     comfanvid = mlbcomfanvid(prefOTP,format);
 end
+
+% Discussions involving the superheroes, kwamis, and Hawkmoth. (6)
+% if preftopic == 3
+%     superhero_name = ["Ladybug/Mister Bug, Tikki", "Chat Noir/Lady Noire, Plagg", "Rena Rouge/Rena Furtive, Trixx", "Carapace, Wayzz", "Viperion/Aspik, Sass", "Multimouse/Polymouse, Mullo", "Queen Bee/Vesperia, Pollen", "King Monkey, Xuppu", "Ryuko, Longg", "Pegasus, Kaalki", "Bunnyx, Fluff", "Pigella, Daizzi", "Mayura, Duusuu", "Hawkmoth, Nooroo"];
+%     mlbsuperherodiscuss(superhero_name);
+% end
