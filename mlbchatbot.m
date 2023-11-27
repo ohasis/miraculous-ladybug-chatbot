@@ -56,9 +56,3 @@ if preftopic == 6
     fprintf('You should check out the following recommendation:');
     comfanvid = mlbcomfanvid(prefOTP,format);
 end
-
-% Discussions involving the superheroes, kwamis, and Hawkmoth. (6)
-% if preftopic == 3
-%     superhero_name = ["Ladybug/Mister Bug, Tikki", "Chat Noir/Lady Noire, Plagg", "Rena Rouge/Rena Furtive, Trixx", "Carapace, Wayzz", "Viperion/Aspik, Sass", "Multimouse/Polymouse, Mullo", "Queen Bee/Vesperia, Pollen", "King Monkey, Xuppu", "Ryuko, Longg", "Pegasus, Kaalki", "Bunnyx, Fluff", "Pigella, Daizzi", "Mayura, Duusuu", "Hawkmoth, Nooroo"];
-%     mlbsuperherodiscuss(superhero_name);
-% end
