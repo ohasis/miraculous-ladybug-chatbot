@@ -1,9 +1,3 @@
-% Create a script that will ask for input names and determine whether they
-% will be voted out based on matrix characteristics.
-% Survival skills (willingness to kill animals, ability to stomach disgusting food, etc.), leadership and friendliness.
-% If you input an unrecognizable character name, it will randomly generate characteristics for the character.
-% If time permits, add another tribe.
-
 % This following script is for a Miraculous: Tales of Ladybug and Chat Noir chatbot.
 % Chatbot introductions and program descriptions. (0)
 preftopic = 0;
