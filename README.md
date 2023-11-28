@@ -1,7 +1,7 @@
 
 This chatbot was created over the course of five weeks while I was taking the course **MAE 8: Mechanical and Aerospace Engineering 8: Introduction to MATLAB**.
 
-They reflect the knowledge learned as part of this course, including:
+It reflects the knowledge learned as part of this course, including:
 
 * Data Plotting
 * Function Creation
