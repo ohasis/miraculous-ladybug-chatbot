@@ -1,5 +1,5 @@
 
-This chatbot was created over the course of five weeks while I was taking the course **MAE 8: Mechanical and Aerospace Engineering 8: Introduction to MATLAB**.
+This chatbot was created over five weeks while I was taking the course **MAE 8: Mechanical and Aerospace Engineering 8: Introduction to MATLAB** at UCSD in the summer of 2021.
 
 It reflects the knowledge learned as part of this course, including:
 
@@ -7,7 +7,7 @@ It reflects the knowledge learned as part of this course, including:
 * Function Creation
 * Matrix Manipulation
 
-The subject for this chatbot is the French animated television show *Miraculous Ladybug: Tales of Ladybug and Chat Noir*, which was a special interest of mine in 2021.
+The subject for this chatbot is the French animated television show *Miraculous Ladybug: Tales of Ladybug and Chat Noir*: a special interest of mine in 2021.
 
 The suggested order of the functions in this repository is as follows:
 1. [`mlbchatbot`](https://github.com/the0asis/miraculous-ladybug-chatbot/blob/main/mlbchatbot.m)
